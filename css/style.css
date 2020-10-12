@@ -1,4 +1,7 @@
-body {}
+body {
+    background-color: black;
+
+}
 
 table,
 th,
@@ -16,9 +19,12 @@ h1 {
     font-style: Arial, serif;
 }
 
-h2 {
+h2, h3 {
     color: darkgreen;
     font-style: Verdana, sans-serif, serif;
+}
+p, li{
+    color: rgb(9, 243, 9);
 }
 
 strong {
