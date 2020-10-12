@@ -1,5 +1,117 @@
+
+
+:root{
+    --overlay-color:rgba(75, 75, 93, 0.85);
+    --main-green: rgba(58,238,83,1);
+    --main-text-white:rgba(255,255,255,.85);
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+a,
+body{
+    color:var(--main-text-white);
+    font-family: 'Varela Round', sans-serif;
+}
+
 table,
 th,
 td {
     border: 1px solid black;
 }
+
+.green{
+    color:var(--main-green);
+}
+
+.header{
+    height:75vh;
+    width:100%;
+    background: linear-gradient( var(--overlay-color),var(--overlay-color)), url('https://templated.co/items/demos/projection/images/banner.jpg');
+    background-position:center top;
+    background-size:cover;
+    background-attachment: fixed;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.nav{
+    display:flex;
+    justify-content: end;
+    position:absolute;
+    height:auto;
+    width:100%;
+}
+
+.nav-container{
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    margin:1em;
+}
+
+.nav a{
+
+}
+
+.introduction-container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    position:relative;
+    top:20%;
+}
+
+.hero{
+    font-size: 6em;
+    border-bottom: .5px solid var(--main-text-white);
+}
+
+.sub-title{
+    font-size: 2em;
+    padding-top:20px;
+}
+
+.member-container{
+    position:relative;
+    top:5em;
+    width:100%;
+    text-align:center;
+}
+
+.name-list{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.name-list li{
+    font-size:1.5em;
+    margin:15px;
+    padding:10px;
+    border-radius: 5px;
+    transition:.5s;
+
+}
+
+.name-list li:hover{
+    background-color:rgba(21, 219, 47, 0.7);
+}
+
+
+
+
+
+
