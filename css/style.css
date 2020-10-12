@@ -15,3 +15,7 @@ h2 {
     color: darkgreen;
     font-style: Verdana, sans-serif, serif;
 }
+
+strong {
+    font-size: 18px;
+}
