@@ -12,6 +12,13 @@ td {
 }
 table {border-spacing: 5px;}
 
+a{
+    color:darkgreen;
+}
+
+a:visited{
+    color: darkgreen;
+}
     
 
 
