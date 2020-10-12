@@ -1,4 +1,9 @@
-body{
+:root{
+    --card-width:300px;
+}
+
+
+0body{
   
 }
 
@@ -6,4 +11,34 @@ table,
 th,
 td {
     border: 1px solid black;
+}
+
+.sub-title{
+    width:auto;
+}
+.card-container{
+    width:100%;
+    height:auto;
+    display:inline-block;
+
+    display:flex;
+    flex-direction: column;
+}
+
+
+.card{
+    
+    width:var(--card-width);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+
+.responsive-img{
+
+}
+
+.img{
+    width:var(--card-width);
+    height:auto;
 }
