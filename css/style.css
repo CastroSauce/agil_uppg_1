@@ -15,7 +15,11 @@
 a,
 body{
     color:var(--main-text-white);
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight:100;
 }
 
 table,
@@ -26,6 +30,12 @@ td {
 
 .green{
     color:var(--main-green);
+}
+
+.line-divider{
+    background-color:white;
+    width:85%;
+    height:.5px;
 }
 
 .header{
@@ -47,7 +57,7 @@ td {
 .nav{
     display:flex;
     justify-content: end;
-    position:absolute;
+    position:fixed;
     height:auto;
     width:100%;
 }
@@ -60,7 +70,8 @@ td {
 }
 
 .nav a{
-
+    font-size: 1.3em;
+    text-decoration: none;
 }
 
 .introduction-container{
@@ -108,6 +119,7 @@ td {
 
 .name-list li:hover{
     background-color:rgba(21, 219, 47, 0.7);
+    cursor: pointer;
 }
 
 
