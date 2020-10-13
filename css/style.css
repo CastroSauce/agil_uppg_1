@@ -44,12 +44,23 @@ td {
   }
 
 
-.line-divider{
-    background-color:white;
-    width:85%;
-    height:.5px;
+
+/*global classes*/
+.center{
+    margin:0 auto;
 }
 
+.section-title{
+    font-size: 6em;
+}
+
+.small-img{
+    width:200px;
+    height:auto;
+}
+
+
+/*///////////////*/
 
 
 /* start of header css*/
@@ -65,6 +76,8 @@ td {
     display:flex;
     flex-direction: column;
     align-items: center;
+
+    box-shadow: 0px 20px 15px rgba(0, 0, 0, .2);
 }
 
 .nav{
@@ -132,12 +145,84 @@ td {
 }
 
 .name-list li:hover{
-    background-color:rgba(21, 219, 47, 0.7);
+    background-color:rgba(58,238,83, 0.7);
     cursor: pointer;
 }
 
 /* end of header css*/
 
+
+/*start of main section*/
+
+
+
+/*tools and method section*/
+
+.tool-method-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height:auto;
+    background-color:white;
+    padding:2em;
+    padding-top:5em;
+    padding-bottom:10em;
+
+    background-color:rgb(58, 58, 71);
+
+}
+
+
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:100%;
+    margin-top:8em;
+    background-color:rgb(53, 53, 63);
+    border-radius: 10px;
+}
+
+.card{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "title";
+
+    width:300px;
+    height:350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    margin:2em;
+    background-color:rgb(58, 58, 71);
+
+
+
+}
+
+
+
+.card-title{
+    grid-area:title;
+    position:relative;
+    bottom:.5cm;
+    
+    font-size:4em;
+}
+
+.card-img{
+    grid-area: 1/1/1/1;
+    position:relative;
+    bottom:4.2cm;
+    right:3.5cm;
+    width:40%;
+}
 
 
 
