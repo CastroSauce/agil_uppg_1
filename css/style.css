@@ -28,9 +28,21 @@ td {
     border: 1px solid black;
 }
 
-.green{
-    color:var(--main-green);
+.animated-green{
+    background: linear-gradient(to left, rgba(255,255,255,1) 15%, var(--main-green) 15%, var(--main-green) 66%, rgba(255,255,255,1) 66%)right;
+    background-size:800%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: AnimationName 5s  infinite;
+    
 }
+
+@keyframes AnimationName {
+    100%{ background-position:left}
+  }
+
 
 .line-divider{
     background-color:white;
