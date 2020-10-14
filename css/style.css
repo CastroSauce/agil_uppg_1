@@ -42,7 +42,8 @@ h1 {
     text-align: center;
 }
 
-h2 {color: rgb(9, 243, 9);
+h2 {
+    color: green;
     font-family: Arial, serif;
     background-color: white;
 
