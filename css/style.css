@@ -66,7 +66,8 @@ td {
 /* start of header css*/
 
 .header{
-    height:75vh;
+    position:relative;
+    height:70vh;
     width:100%;
     background: linear-gradient( var(--overlay-color),var(--overlay-color)), url('https://templated.co/items/demos/projection/images/banner.jpg');
     background-position:center top;
@@ -76,8 +77,6 @@ td {
     display:flex;
     flex-direction: column;
     align-items: center;
-
-    box-shadow: 0px 20px 15px rgba(0, 0, 0, .2);
 }
 
 .nav{
@@ -149,6 +148,12 @@ td {
     cursor: pointer;
 }
 
+.bottom-shape{
+    position: absolute; 
+    bottom: 0; 
+    
+}
+
 /* end of header css*/
 
 
@@ -164,12 +169,12 @@ td {
     align-items: center;
 
     height:auto;
-    background-color:white;
+    background: linear-gradient(40deg, rgba(75, 75, 93, 1) 50%,var(--overlay-color) 50%), url('https://www.1iz.net/data/media/7/New_York_Black_White_1920x1080.jpg');
+    background-position:center top;
+    background-size:cover;
     padding:2em;
-    padding-top:5em;
     padding-bottom:10em;
 
-    background-color:rgb(58, 58, 71);
 
 }
 
@@ -180,27 +185,20 @@ td {
     justify-content: space-around;
     width:100%;
     margin-top:8em;
-    background-color:rgb(53, 53, 63);
+
     border-radius: 10px;
 }
 
 .card{
-    display:grid;
-    justify-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    grid-template-areas: 
-    "title";
 
     width:300px;
     height:350px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
     margin:2em;
-    background-color:rgb(58, 58, 71);
 
 
 
@@ -209,7 +207,7 @@ td {
 
 
 .card-title{
-    grid-area:title;
+    grid-area:image;
     position:relative;
     bottom:.5cm;
     
@@ -217,11 +215,9 @@ td {
 }
 
 .card-img{
-    grid-area: 1/1/1/1;
+    grid-area: title;
     position:relative;
-    bottom:4.2cm;
-    right:3.5cm;
-    width:40%;
+    width:30%;
 }
 
 
