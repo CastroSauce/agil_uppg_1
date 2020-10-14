@@ -11,6 +11,11 @@ td {
     color: rgb(9, 243, 9);
 }
 
+.center{
+    display:block;
+    margin:0 auto;
+}
+
 table {
     border-spacing: 5px;
 }
