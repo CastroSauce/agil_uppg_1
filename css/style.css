@@ -11,9 +11,9 @@ td {
     color: rgb(9, 243, 9);
 }
 
-.center{
-    display:block;
-    margin:0 auto;
+.center {
+    display: block;
+    margin: 0 auto;
 }
 
 table {
@@ -37,7 +37,7 @@ img {
 h1 {
     color: green;
     background-color: white;
-    font-style: Arial, serif;
+    font-family: Arial, serif;
     font-size: 60px;
     text-align: center;
 }
@@ -45,7 +45,7 @@ h1 {
 h2,
 h3 {
     color: rgb(9, 243, 9);
-    font-style: Verdana, sans-serif, serif;
+    font-family: Arial, serif;
 }
 
 p,
@@ -57,6 +57,6 @@ strong {
     font-size: 18px;
 }
 
-.large-text{
-    font-size:32px;
+.large-text {
+    font-size: 32px;
 }
