@@ -31,6 +31,7 @@ img {
 h1 {
     color: green;
     font-style: Arial, serif;
+    font-size: 60px;
 }
 
 h2,
@@ -49,5 +50,5 @@ strong {
 }
 
 .large-text{
-    font-size:60px;
+    font-size:32px;
 }
