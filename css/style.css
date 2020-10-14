@@ -1,28 +1,31 @@
 body {
     background-color: black;
-padding: 0 20%;
+    padding: 0 20%;
 }
 
 table,
 th,
 td {
-    border: 1px solid darkgreen;
+    border: 1px solid rgb(9, 243, 9);
     padding: 2px;
-    color: darkgreen;
-}
-table {border-spacing: 5px;}
-
-a{
-    color:darkgreen;
+    color: rgb(9, 243, 9);
 }
 
-a:visited{
-    color: darkgreen;
+table {
+    border-spacing: 5px;
 }
-    
-img{
-    width:300px;
-    height:300px;
+
+a {
+    color: rgb(9, 243, 9);
+}
+
+a:visited {
+    color: rgb(9, 243, 9);
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
 
 h1 {
@@ -30,12 +33,15 @@ h1 {
     font-style: Arial, serif;
 }
 
-h2, h3 {
-    color: darkgreen;
+h2,
+h3 {
+    color: rgb(9, 243, 9);
     font-style: Verdana, sans-serif, serif;
 }
-p, li{
-    color: rgb(9, 243, 9);
+
+p,
+li {
+    color: darkgreen;
 }
 
 strong {
