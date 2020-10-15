@@ -28,6 +28,17 @@ td {
     border: 1px solid black;
 }
 
+
+.not-active {
+    transform:translateX(100%);
+    display:none !important;
+}
+
+.page{
+    width:100vw;
+    height:100vh;
+}
+
 .animated-green{
     background: linear-gradient(to left, rgba(255,255,255,1) 15%, var(--main-green) 15%, var(--main-green) 66%, rgba(255,255,255,1) 66%)right;
     background-size:800%;
@@ -36,7 +47,6 @@ td {
     -webkit-text-fill-color: transparent;
 
     animation: AnimationName 5s  infinite;
-    
 }
 
 @keyframes AnimationName {
@@ -66,9 +76,7 @@ td {
 /* start of header css*/
 
 .header{
-    position:relative;
-    height:70vh;
-    width:100%;
+    
     background: linear-gradient( var(--overlay-color),var(--overlay-color)), url('https://templated.co/items/demos/projection/images/banner.jpg');
     background-position:center top;
     background-size:cover;
@@ -77,6 +85,8 @@ td {
     display:flex;
     flex-direction: column;
     align-items: center;
+
+
 }
 
 .nav{
@@ -159,22 +169,23 @@ td {
 
 /*start of main section*/
 
+.main{
+    
+}
+
 
 
 /*tools and method section*/
 
 .tool-method-section{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    height:auto;
     background: linear-gradient(40deg, rgba(75, 75, 93, 1) 50%,var(--overlay-color) 50%), url('https://www.1iz.net/data/media/7/New_York_Black_White_1920x1080.jpg');
     background-position:center top;
     background-size:cover;
-    padding:2em;
-    padding-bottom:10em;
-
 
 }
 
