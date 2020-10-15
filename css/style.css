@@ -74,3 +74,16 @@ strong {
 .large-text {
     font-size: 32px;
 }
+
+footer {
+    background-color: whitesmoke;
+   
+    
+}
+
+.tucslogga{
+height: 50px;
+width: 50px;
+object-fit: left;
+
+}
