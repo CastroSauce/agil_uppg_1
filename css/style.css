@@ -19,6 +19,18 @@ nav a{
     
 }
 
+.profile-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.profile{
+
+}
+
 .center {
     display: block;
     margin: 0 auto;
