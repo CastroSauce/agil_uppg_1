@@ -22,11 +22,16 @@ nav a{
 .profile-container{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 
 
 }
 
+.profile{
+    margin:10px;
+    text-align: center;
+    list-style: none;
+}
 
 .center {
     display: block;
