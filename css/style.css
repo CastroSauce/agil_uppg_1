@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    padding: 0 20%;
+    
 }
 
 table,
@@ -98,6 +98,6 @@ footer {
 .tucslogga{
 height: 50px;
 width: 50px;
-object-fit: left;
+float: right;
 
 }
