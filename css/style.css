@@ -1,16 +1,17 @@
 body {
     background-color: white;
-    padding: 0 10%;
+    padding: 0 15%;
     
 }
 
 main {
-    background-color: #48be5c;
+    border: 1px solid black;
     box-shadow: 5px 5px 5px black;
 }
 
 header {
     background-color: #004d00;
+    padding-bottom: 20px;
 }
 
 .logga {
@@ -28,7 +29,14 @@ nav {
 
 nav a {
     padding: 10px;
+    box-shadow: 3px 3px 3px black;
     color: white;
+    background-color: rgb(153, 28, 28);
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
 }
 
 .list li{
@@ -55,13 +63,17 @@ a {
 }
 
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     text-align: center;
     font-size: 40px;
+    text-shadow: 3px 3px 3px black;
 }
 
-h1, h2 {
-    background-color: white;
+h2 {
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 strong {
@@ -79,12 +91,14 @@ th, td {
 
 footer {
     background-color: #004d00;
-    height: 58px;
-    text-align: center;
     color: white;
+    overflow: auto;
 }
 
 footer img {
     width: 100px;
     float: right;
+    position: relative;
+    right: 8px;
+    bottom: 8px;
 }
