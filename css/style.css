@@ -84,6 +84,7 @@ h2 {
 h3 {
     color: rgb(9, 243, 9);
     font-family: Arial, serif;
+    text-align: center;
 }
 
 p,
@@ -114,6 +115,7 @@ float: right;
 
 .border{
     border: 3px solid green;
-    
+    margin-left: 20%;
+    margin-right: 20%;
     box-shadow: 10px 10px 10px green ;
 }
