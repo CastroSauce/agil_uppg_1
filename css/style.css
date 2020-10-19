@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    
 }
 
 table,
@@ -10,35 +9,32 @@ td {
     padding: 2px;
     color: rgb(9, 243, 9);
 }
-nav{
+
+nav {
     text-align: center;
 }
 
-nav a{
+nav a {
     margin: 10px;
     text-decoration: none;
-    padding:10px;
-    border: .5px solid rgb(9, 243, 9); 
-    transition:.7s   
+    padding: 10px;
+    border: .5px solid rgb(9, 243, 9);
+    transition: .7s
 }
 
-nav a:hover{
-    background-color:rgb(9, 243, 9);
-    color:black;
+nav a:hover {
+    background-color: rgb(9, 243, 9);
+    color: black;
 }
 
-
-
-.profile-container{
-    display:flex;
+.profile-container {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
 }
 
-.profile{
-    margin:10px;
+.profile {
+    margin: 10px;
     text-align: center;
     list-style: none;
 }
@@ -78,9 +74,8 @@ h2 {
     color: green;
     font-family: Arial, serif;
     background-color: white;
-
-
 }
+
 h3 {
     color: rgb(9, 243, 9);
     font-family: Arial, serif;
@@ -102,20 +97,21 @@ strong {
 
 footer {
     background-color: whitesmoke;
-   
-    
 }
 
-.tucslogga{
-height: 50px;
-width: 50px;
-float: right;
-
+.tucslogga {
+    height: 50px;
+    width: 50px;
+    float: right;
 }
 
-.border{
+.border {
     border: 3px solid green;
     margin-left: 20%;
     margin-right: 20%;
-    box-shadow: 10px 10px 10px green ;
+    box-shadow: 10px 10px 10px green;
+}
+
+.move-right {
+    float: right;
 }
