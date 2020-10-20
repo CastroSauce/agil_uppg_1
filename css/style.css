@@ -1,3 +1,7 @@
+:root{
+    --card-width:200px;
+}
+
 body {
     background: linear-gradient(rgba(75, 75, 93, 0.85), rgba(75, 75, 93, 0.85)), url("https://templated.co/items/demos/projection/images/banner.jpg");
     background-position: center top;
@@ -9,9 +13,9 @@ body {
 table,
 th,
 td {
-    border: 1px solid rgb(9, 243, 9);
+    border: 1px solid rgba(255, 255, 255, 0.89);
     padding: 2px;
-    color: rgb(9, 243, 9);
+    color: rgba(255, 255, 255, 0.89);
 }
 
 nav {
@@ -31,16 +35,36 @@ nav a:hover {
     color: black;
 }
 
-.profile-container {
+.sub-title {
+    width: auto;
+}
+
+.card-container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.profile {
-    margin: 10px;
-    text-align: center;
-    list-style: none;
+.card {
+    width: var(--card-width);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.699);
+    border-radius: 5px;
+    margin: 2em;
+}
+
+.img {
+    width: var(--card-width);
+    height: 250px;
+    object-fit: cover;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
 
 .logga {
@@ -119,16 +143,18 @@ footer {
     width: 50%;
 }
 
-.scrumbild{
-border-radius:20px ;
-border-radius: 5px;
+.scrumbild {
+    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .lärdom div:nth-child(odd) {
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.555);
     color: black !important;
+    padding: 15px;
 }
 
 .lärdom div:nth-child(even) {
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(46, 46, 46, 0.555);
+    padding: 15px;
 }
