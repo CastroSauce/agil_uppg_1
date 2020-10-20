@@ -74,9 +74,9 @@ h1 {
 }
 
 h2 {
-    color: green;
+    color: rgba(240, 253, 227, 0.89);
     font-family: Arial, serif;
-    background-color: white;
+    background-color: transparent;
     text-align: center;
 }
 
