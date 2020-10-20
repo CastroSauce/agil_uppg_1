@@ -8,6 +8,16 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: rgba(255, 255, 255, 0.89);
+    font-family: 'Varela Round', sans-serif;
+}
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Varela Round', sans-serif;
+}
+
+p{
+    font-family: 'Varela Round', sans-serif;
 }
 
 table,
@@ -110,19 +120,16 @@ img {
 h1 {
     color: green;
     background-color: rgba(179, 179, 179, 0.555);
-    font-family: Arial, serif;
     font-size: 60px;
     text-align: center;
 }
 
 h2 {
-    font-family: Arial, serif;
     background-color: transparent;
     text-align: center;
 }
 
 h3 {
-    font-family: Arial, serif;
     text-align: center;
 }
 
