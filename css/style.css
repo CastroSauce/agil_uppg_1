@@ -118,3 +118,8 @@ footer {
 .table {
     width: 50%;
 }
+
+.lärdom div:nth-child(odd) {
+    background-color: silver;
+    color: black !important;
+}
