@@ -74,6 +74,7 @@ h2 {
     color: green;
     font-family: Arial, serif;
     background-color: white;
+    text-align: center;
 }
 
 h3 {
@@ -109,6 +110,7 @@ footer {
     border: 3px solid green;
     width:60%;
     margin: 0 auto;
+    margin-top: 5%;
     box-shadow: 10px 10px 10px green;
 }
 
