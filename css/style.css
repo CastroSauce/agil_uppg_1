@@ -1,5 +1,5 @@
-:root{
-    --card-width:200px;
+:root {
+    --card-width: 200px;
 }
 
 body {
@@ -29,11 +29,10 @@ td {
 }
 
 nav {
-
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height:200px;
+    height: 200px;
     position: relative;
     text-align: center;
 }
@@ -43,14 +42,13 @@ nav a {
     text-decoration: none;
     padding: 10px;
     transition: .7s;
-    font-size:2em;
+    font-size: 2em;
 }
 
-.hero{
+.hero {
     color: rgb(9, 243, 9);
-    font-size:5em;
-    background-color:transparent;
-
+    font-size: 5em;
+    background-color: transparent;
 }
 
 nav a:hover {
@@ -78,9 +76,9 @@ nav a:hover {
     margin: 2em;
 }
 
-.img{
-    width:var(--card-width);
-    height:250px;
+.img {
+    width: var(--card-width);
+    height: 250px;
     object-fit: cover;
 }
 
@@ -90,13 +88,11 @@ html {
     margin: 0;
 }
 
-
 .logga {
     position: absolute;
-    height:200px;
-    left:0;
-    top:0;
-    
+    height: 200px;
+    left: 0;
+    top: 0;
 }
 
 table {
@@ -181,4 +177,8 @@ footer {
 .lärdom div:nth-child(even) {
     background-color: rgba(46, 46, 46, 0.555);
     padding: 15px;
+}
+
+.pmargin {
+    margin: 20px;
 }
