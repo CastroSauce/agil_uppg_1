@@ -3,7 +3,7 @@ body {
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
-    color: rgba(240, 253, 227, 0.89);
+    color: rgba(255, 255, 255, 0.89);
 }
 
 table,
@@ -75,7 +75,6 @@ h1 {
 }
 
 h2 {
-    color: rgba(240, 253, 227, 0.89);
     font-family: Arial, serif;
     background-color: transparent;
     text-align: center;
