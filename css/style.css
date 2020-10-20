@@ -151,8 +151,10 @@ footer {
 .lärdom div:nth-child(odd) {
     background-color: rgba(192, 192, 192, 0.555);
     color: black !important;
+    padding: 15px;
 }
 
 .lärdom div:nth-child(even) {
     background-color: rgba(46, 46, 46, 0.555);
+    padding: 15px;
 }
