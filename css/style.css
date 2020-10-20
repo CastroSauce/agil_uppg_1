@@ -125,10 +125,10 @@ border-radius: 5px;
 }
 
 .lärdom div:nth-child(odd) {
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.555);
     color: black !important;
 }
 
 .lärdom div:nth-child(even) {
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(46, 46, 46, 0.555);
 }
