@@ -1,7 +1,8 @@
 body {
     background: linear-gradient(rgba(75, 75, 93, 0.85),rgba(75, 75, 93, 0.85)), url("https://templated.co/items/demos/projection/images/banner.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-position:center top;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 table,
