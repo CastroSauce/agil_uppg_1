@@ -1,3 +1,7 @@
+:root{
+    --card-width:200px;
+}
+
 body {
     background: linear-gradient(rgba(75, 75, 93, 0.85), rgba(75, 75, 93, 0.85)), url("https://templated.co/items/demos/projection/images/banner.jpg");
     background-position: center top;
@@ -31,16 +35,54 @@ nav a:hover {
     color: black;
 }
 
-.profile-container {
-    display: flex;
+.sub-title{
+    width:auto;
+}
+.card-container{
+    width:100%;
+    height:auto;
+    display:inline-block;
+
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.profile {
-    margin: 10px;
-    text-align: center;
-    list-style: none;
+
+.card{
+    
+    width:var(--card-width);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.699);
+    border-radius: 5px;
+    margin:2em;
+}
+
+
+.responsive-img{
+
+}
+
+.img{
+    width:var(--card-width);
+    height:250px;
+    object-fit: cover;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.profile-container {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+
+/* .profile { */
+    /* margin: 10px; */
+    /* text-align: center; */
+    /* list-style: none; */
 }
 
 .logga {
