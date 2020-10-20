@@ -1,8 +1,9 @@
 body {
-    background: linear-gradient(rgba(75, 75, 93, 0.85),rgba(75, 75, 93, 0.85)), url("https://templated.co/items/demos/projection/images/banner.jpg");
-    background-position:center top;
-    background-size:cover;
+    background: linear-gradient(rgba(75, 75, 93, 0.85), rgba(75, 75, 93, 0.85)), url("https://templated.co/items/demos/projection/images/banner.jpg");
+    background-position: center top;
+    background-size: cover;
     background-attachment: fixed;
+    color: rgba(240, 253, 227, 0.89);
 }
 
 table,
@@ -67,7 +68,7 @@ img {
 
 h1 {
     color: green;
-    background-color: white;
+    background-color: rgba(179, 179, 179, 0.555);
     font-family: Arial, serif;
     font-size: 60px;
     text-align: center;
@@ -81,14 +82,8 @@ h2 {
 }
 
 h3 {
-    color: rgb(9, 243, 9);
     font-family: Arial, serif;
     text-align: center;
-}
-
-p,
-li {
-    color: rgb(17, 168, 17);
 }
 
 strong {
@@ -111,7 +106,7 @@ footer {
 
 .border {
     border: 3px solid green;
-    width:60%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 5%;
     box-shadow: 10px 10px 10px green;
@@ -121,6 +116,6 @@ footer {
     float: right;
 }
 
-.table{
-    width:50%;
+.table {
+    width: 50%;
 }
