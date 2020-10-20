@@ -120,6 +120,11 @@ footer {
 }
 
 .scrumbild{
-border-radius: 5px;
 border-radius:20px ;
+border-radius: 5px;
+}
+
+.lärdom div:nth-child(odd) {
+    background-color: silver;
+    color: black !important;
 }
