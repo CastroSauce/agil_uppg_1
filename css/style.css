@@ -19,7 +19,6 @@ body{
     position: relative;
     color:var(--main-text-white);
     font-family: 'Roboto', sans-serif;
-    color:var(--main-text-white);
 
     background: linear-gradient( var(--overlay-color),var(--overlay-color)), url('https://templated.co/items/demos/projection/images/banner.jpg');
     background-position:center top;
@@ -88,6 +87,10 @@ td {
     height:auto;
 }
 
+.active{
+    font-size:2.5em !important;
+    color:var(--main-green) !important;
+}
 
 /*///////////////*/
 
@@ -191,13 +194,13 @@ td {
 
 .nav a{
     
-    font-size: 1.3em;
+    font-size: 2em;
     background-color:transparent;
     border:none;
     padding:1em;
     color:var(--main-text-white);
     text-decoration: none;
-    font-size:2em;
+    transition:.7s;
     
 }
 
@@ -220,40 +223,72 @@ td {
     align-items: center;
     width:100%;
     height:85vh;
+
+    
     
 }
 
 .card{
     position: relative;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     margin:.5em;
 
     width:var(--card-width);
     height:var(--card-height);
-
-    color:var(--main-text-white);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: .7s;
-   
+
+    transition: 0.7s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    perspective: 1000px;
 }
 
-.card:hover{
+ .card:hover{
     transform: translateY(-100px);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     cursor: pointer;
    
+} 
+
+
+.flipped{
+    transform: translateY(-100px) rotateY(180deg) !important;
 }
 
+
 .card:hover .card-title{
-    color:White;
+    color:white;
 }
 
 .card:hover .dark-overlay{
     opacity:0.2;
+}
+
+
+
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+ 
+  .card-front{
+ 
+    display:Flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-back{
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    z-index:2;
 }
 
 
@@ -264,6 +299,8 @@ td {
     bottom:.5cm;
     z-index: 1;
     font-size:5em;
+    color:var(--main-text-white);
+    transition:.7s;
 }
 
 .card-img{
