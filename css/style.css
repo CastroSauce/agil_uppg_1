@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(75, 75, 93, 0.85), rgba(75, 75, 93, 0.85)), url("https://templated.co/items/demos/projection/images/banner.jpg");
+    background: linear-gradient(rgba(101, 101, 160, 0.85), rgba(75, 75, 93, 0.85)), url("https://templated.co/items/demos/projection/images/banner.jpg");
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
@@ -102,6 +102,11 @@ html {
     height: 200px;
     left: 0;
     top: 0;
+}
+
+.table-border{
+
+    display: none;
 }
 
 table {
