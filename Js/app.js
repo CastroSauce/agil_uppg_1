@@ -18,9 +18,6 @@ function changeActiveLink(event){
 
 
 
-const swup = new Swup();
-
-
 var currentActive = document.getElementById("firstLink"); 
 const linkWrapper = document.getElementById("linkWrapper");
 linkWrapper.addEventListener("click", changeActiveLink);
