@@ -46,6 +46,7 @@ nav a {
     padding: 10px;
     transition: .7s;
     font-size: 2em;
+    border-radius: 10px;;
 }
 
 .hero {
@@ -77,6 +78,11 @@ nav a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.699);
     border-radius: 5px;
     margin: 2em;
+    transition:.7s;
+}
+
+.card:hover{
+    transform: translateY(-30px);
 }
 
 .img {
