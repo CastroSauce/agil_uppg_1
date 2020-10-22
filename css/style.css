@@ -196,3 +196,15 @@ footer {
 .pmargin {
     margin: 20px;
 }
+
+.video-sec {
+    margin: 1em;
+    width: 325px;
+    height: 221px;
+}
+
+.magic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
