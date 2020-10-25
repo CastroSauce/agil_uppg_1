@@ -1,18 +1,21 @@
 
 function changeActiveLink(event){
+    let nextActive ="";
+    
+    if(event.target != undefined && event.target.length > 0){
+        nextActive = event.target;
+    }else{
+        nextActive = event;
+    }
+  
 
-    console.log(event);
-    let nextActive = event.target;
-   
+    if( currentActiveLink != nextActive){
 
-
-    if( currentActive != nextActive){
-
-        currentActive.classList.remove("active");
+        currentActiveLink.classList.remove("active");
 
         nextActive.classList.add("active")
 
-        currentActive = nextActive;
+        currentActiveLink = nextActive;
     }
 
     
@@ -24,11 +27,17 @@ function changeActiveLink(event){
 
 function changeActiveNav(event){
 
-    if(window.hash != currentActive.hash){
-        console.log("not on same");
-        changeActiveLink(document.getElementById(window.location.hash.substring(1)));
-        
-    }
+    let filteredList = elements.filter(el => el.getBoundingClientRect().top > -50 && el.getBoundingClientRect().top < 50)
+    let nextSection = filteredList[0];
+
+        if(nextSection != undefined && currentSection != nextSection){
+  
+            currentSection = nextSection;
+           
+            nextActiveLink = document.getElementsByName(currentSection.id)[0];
+            changeActiveLink(nextActiveLink);
+        }
+    
 
     
 
@@ -38,9 +47,12 @@ function changeActiveNav(event){
       
 
 
+var list = document.getElementsByClassName("section"); // Do not use a period here!
+var elements = Array.prototype.map.call(list, el => el);
 
 
-var currentActive = document.getElementById("firstLink"); 
+var currentActiveLink = document.getElementById("firstLink"); 
+var currentSection = document.getElementById("start");
 const linkWrapper = document.getElementById("linkWrapper");
 linkWrapper.addEventListener("click", changeActiveLink);
 window.addEventListener("scroll",changeActiveNav);

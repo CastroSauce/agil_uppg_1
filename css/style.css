@@ -42,11 +42,6 @@ td {
 }
 
 
-.page{
-
-    width:100vw;
-    height:100vh;
-}
 
 .animated-green{
     background: linear-gradient(to left, rgba(255,255,255,1) 15%, var(--main-green) 15%, var(--main-green) 66%, rgba(255,255,255,1) 66%)right;
@@ -97,9 +92,12 @@ td {
     display:flex;
     flex-direction: column;
     align-items: center;
+    width:100vw;
+    height:100vh;
 
 
 }
+
 
 
 .introduction-container{

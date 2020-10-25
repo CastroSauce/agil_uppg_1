@@ -17,8 +17,6 @@ function getContainerWithClass(containerClass, element){ // searches all parents
 
 function changeCardState(event){
 
-
-
     const card = getContainerWithClass("card", event.target); // get the 2nd parent which should be the card
 
     if(card != undefined){ // check if the element contains a card class
