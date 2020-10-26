@@ -229,6 +229,14 @@ footer {
 
 @media (min-width: 768px;){
 
+
+    body{
+
+        font-size: 3vw;
+    }
+
+
+
     nav a{
 
         flex-direction: row;
@@ -251,6 +259,15 @@ footer {
 
 @media (max-width: 1024px){
 
+
+    body{
+
+        font-size: 3vw;
+    }
+
+
+
+
     nav a{
 
         flex-direction: row;
@@ -270,4 +287,3 @@ footer {
 
 
 }
-
