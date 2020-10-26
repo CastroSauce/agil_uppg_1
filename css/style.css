@@ -19,6 +19,7 @@ h3,
 h4,
 h5 {
     font-family: 'Varela Round', sans-serif;
+    width:100%;
 }
 
 p {
@@ -217,5 +218,9 @@ footer {
  }
 .logga {
     display:none;
+}
+
+.border {
+    width:90%;
 }
 }
