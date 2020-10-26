@@ -53,6 +53,5 @@ var elements = Array.prototype.map.call(list, el => el);
 
 var currentActiveLink = document.getElementById("firstLink"); 
 var currentSection = document.getElementById("start");
-const linkWrapper = document.getElementById("linkWrapper");
-linkWrapper.addEventListener("click", changeActiveLink);
+
 window.addEventListener("scroll",changeActiveNav);
