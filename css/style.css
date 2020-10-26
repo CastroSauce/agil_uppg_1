@@ -99,6 +99,7 @@ body,
 html {
     height: 100%;
     margin: 0;
+
 }
 
 .logga {
@@ -224,3 +225,49 @@ footer {
     width:90%;
 }
 }
+
+
+@media (min-width: 768px;){
+
+    nav a{
+
+        flex-direction: row;
+        text-align: center;
+        font-size: 1.3rem;
+        
+    
+    }
+   
+    .logga{
+
+        height: 180px;
+        width: 100px;
+        
+    }
+
+
+
+}
+
+@media (max-width: 1024px){
+
+    nav a{
+
+        flex-direction: row;
+        text-align: center;
+        font-size: 1.3rem;
+        
+    
+    }
+   
+    .logga{
+
+        height: 180px;
+        width: 100px;
+        
+    }
+
+
+
+}
+
