@@ -19,7 +19,7 @@ html{
     scroll-behavior: smooth;
 }
 
-a,
+
 body{
     position: relative;
     color:var(--main-text-white);
@@ -29,6 +29,7 @@ body{
     background-position:center top;
     background-size:cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5{
@@ -78,8 +79,19 @@ td {
     color:var(--main-green) !important;
 }
 
+.section-gap{
+    margin-top:200px;
+}
 
+.nav-solid{
+    background-color:rgba(75, 75, 93, 0.95) !important ;
+    transition:1s;
+}   
 
+.nav-transparent{
+    background-color:transparent !important;
+    transition:1s;
+}
 /*///////////////*/
 
 
@@ -99,6 +111,40 @@ td {
 }
 
 
+.nav{
+ 
+    position:fixed;
+    display:flex;
+    justify-content: end;
+    height:auto;
+    width:100%;
+    z-index: 3;
+
+}
+
+.nav-container{
+    display:inline-block;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin:1.5em;
+
+   
+
+  
+}
+
+.nav a{
+    font-size: 1.5em;
+    border:none;
+    margin-left:2em;
+    color:var(--main-text-white);
+    text-decoration: none;
+    transition:.7s;
+   
+    
+}
 
 .introduction-container{
     width:100%;
@@ -163,38 +209,6 @@ td {
 }
 
 
-.nav{
-    z-index:2;
-    position:fixed;
-    display:flex;
-    justify-content: end;
-    height:auto;
-    width:100%;
-    background-color:transparent;
-}
-
-.nav-container{
-    display:inline-block;
-    width:auto;
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    margin:1.5em;
-    background-color:transparent;
-  
-}
-
-.nav a{
-    
-    font-size: 1.5em;
-    background-color:transparent;
-    border:none;
-    padding:1em;
-    color:var(--main-text-white);
-    text-decoration: none;
-    transition:.7s;
-    
-}
 
 /*tools and method section*/
 
@@ -203,7 +217,8 @@ td {
     background-position:center top;
     background-size:cover;
     width:100%;
-    height:100%;
+    height:auto;
+    
 
 }
 
@@ -214,7 +229,8 @@ td {
     justify-content: center;
     align-items: center;
     width:100%;
-    height:85vh;  
+    height:auto;
+    margin-top:8em;  
 }
 
 .card{
@@ -327,6 +343,57 @@ td {
 }
 
 
+/*end of tools and method section*/
+
+/*Start of agil section*/
+    .agil-section{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+
+    .text-box{
+        width: 400px;
+        height:auto;
+        margin:5em;
+        padding:2em;
+        border-radius: 10px;
+        transition:.5s;
+    }
+
+    .text-box a{
+        color:var(--main-green);
+    }
+
+    .text-box:hover{
+        background-color:rgba(52, 52, 85,.8);
+    }
+
+    .text-box-title{
+        font-size:3em;
+        margin-bottom: 1em;
+    }
+
+    .text-box-sub-title{
+        font-size: 2em;
+        margin-bottom:1em;
+    }
+
+    .text-box-list{
+        line-height: 1em;
+    }
+
+    .text-box-list li{
+        margin-bottom:1em;
+        font-size:1.3em;
+        line-height: 30px;
+        list-style-position: inside;
+    }
+
+
+/* end of agil section*/
 
 
 
