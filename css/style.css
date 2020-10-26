@@ -53,6 +53,7 @@ nav a {
     color: rgb(9, 243, 9);
     font-size: 5em;
     background-color: transparent;
+    width:100%;
 }
 
 nav a:hover {
@@ -151,6 +152,7 @@ strong {
 
 footer {
     background-color: transparent;
+    width:100%;
 }
 
 .tucslogga {
@@ -205,4 +207,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media screen and (max-width:500px){
+ nav{
+     flex-direction: column;
+ }
+.logga {
+    display:none;
+}
 }
