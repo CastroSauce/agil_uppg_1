@@ -35,7 +35,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: auto;
     position: relative;
     text-align: center;
 }
@@ -98,10 +98,8 @@ html {
 }
 
 .logga {
-    position: absolute;
     height: 200px;
-    left: 0;
-    top: 0;
+
 }
 
 .table-border{
