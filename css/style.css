@@ -215,7 +215,7 @@ footer {
     justify-content: center;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     body{
         overflow-x: hidden;
         
@@ -282,7 +282,7 @@ img {
 }
 
 
-@media (min-width: 768px;){
+@media (min-width: 768px){
 
 
     body{
@@ -317,7 +317,7 @@ img {
 
     body{
 
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
 
