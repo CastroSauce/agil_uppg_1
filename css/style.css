@@ -1,5 +1,5 @@
 :root {
-    --card-width: 200px;
+    --card-width: 300px;
 }
 
 body {
@@ -205,8 +205,8 @@ footer {
 
 .video-sec {
     margin: 1em;
-    width: 325px;
-    height: 221px;
+    width: 500px;
+    height: 300px;
 }
 
 .video-container {
@@ -282,7 +282,7 @@ img {
 }
 
 
-@media (min-width: 768px){
+@media screen and  (min-width: 601px){
 
 
     body{
@@ -296,7 +296,8 @@ img {
 
         flex-direction: row;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 3.1vw;
+        margin:0;
         
     
     }
@@ -312,12 +313,12 @@ img {
 
 }
 
-@media (max-width: 1024px){
+@media screen and  (min-width: 1024px){
 
 
     body{
 
-        font-size: 2vw;
+        font-size: 1.2vw;
     }
 
 
@@ -327,15 +328,16 @@ img {
 
         flex-direction: row;
         text-align: center;
-        font-size: 1.3rem;
+        font-size:  2vw;
+        margin:.7em;
         
     
     }
    
     .logga{
 
-        height: 180px;
-        width: 100px;
+        height: 380px;
+        width: 300px;
         
     }
 
